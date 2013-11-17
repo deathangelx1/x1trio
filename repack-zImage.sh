@@ -7,7 +7,7 @@ Please refer to the thread on http://www.xda-developers.com for
 questions and remarks about this program."
 
 # Alteração para o X1 TRIO STB
-#
+# unpack / repack boot.img
 #
 
 
