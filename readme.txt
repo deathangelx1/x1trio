@@ -7,5 +7,5 @@ Hisilicon HI3716C STB
 
 
 
-Utilizar todos os script em /usr/local/bin
+Utilizar todos os scripts em /usr/local/bin
 
