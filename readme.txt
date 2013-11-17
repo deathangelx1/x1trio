@@ -9,3 +9,10 @@ Hisilicon HI3716C STB
 
 Utilizar todos os scripts em /usr/local/bin
 
+unpack boot.img
+repack-zImage.sh -u
+
+repack boot.img
+repack-Zimage.sh -p
+
+
