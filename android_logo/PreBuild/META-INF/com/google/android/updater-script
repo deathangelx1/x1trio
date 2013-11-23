@@ -4,10 +4,10 @@ show_progress("1","100");
 set_update_lable("nand","0x3600000","0xa00000");
 
 ui_print("update logo image....");
-format("yaffs2","MTD","newlogo","0");
-package_extract_file("newlogo.img", "/tmp/newlogo.img");
-write_raw_image("/tmp/newlogo.img", "newlogo");
-delete("/tmp/newlogo.img");
+format("yaffs2","MTD","logo","0");
+package_extract_file("logo.img", "/tmp/logo.img");
+write_raw_image("/tmp/logo.img", "logo");
+delete("/tmp/logo.img");
 
 erase_by_address("nand","0x3600000","0xa00000");
 ui_print("update test ........ok.");

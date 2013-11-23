@@ -8,10 +8,13 @@ set FULLCURRDIR=%~dp0
 set TOOLS=%CURRDIR%\Tools\
 set OUTPUTDIR=%CURRDIR%\Output\
 set LOGOIMG=%CURRDIR%\Input\logo.img
-set NEWLOGO=%CURRDIR%\Output\newlogo.img
+set NEWLOGO=%CURRDIR%\Output\logo.img
 set IMAGEHEADER=%CURRDIR%\Output\logo.header
 set IMAGEJPG=%CURRDIR%\Output\logo.jpg
 set PREBUILD=%CURRDIR%\PreBuild\
+
+del /f /q %OUTPUTDIR%*.*
+
 
 %TOOLS%chgcolor 07
 ECHO.

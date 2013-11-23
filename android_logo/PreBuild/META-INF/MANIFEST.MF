@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Created-By: Ryuinferno @ XDA
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: peIfiCcQ8+Kyoj3MA2nVz7el+nQ=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: MYW2VLs6Av6/ne8MkRY4ymkn/ZQ=
+
+Name: logo.img
+SHA1-Digest: xdTBbIyvaJ2MKMfUq2wmTqSDnLw=
+
