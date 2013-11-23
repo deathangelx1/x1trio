@@ -1,0 +1,13 @@
+ui_print("start......:");
+set_progress("1");
+show_progress("1","100");
+set_update_lable("nand","0x3600000","0xa00000");
+
+ui_print("update logo image....");
+format("yaffs2","MTD","newlogo","0");
+package_extract_file("newlogo.img", "/tmp/newlogo.img");
+write_raw_image("/tmp/newlogo.img", "newlogo");
+delete("/tmp/newlogo.img");
+
+erase_by_address("nand","0x3600000","0xa00000");
+ui_print("update test ........ok.");
