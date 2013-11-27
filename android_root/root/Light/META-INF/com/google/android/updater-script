@@ -1,0 +1,15 @@
+ui_print("start......:");
+set_progress("1");
+show_progress("0.1","5");
+ui_print("update files...");
+mount("yaffs2","MTD","system","/system");
+delete("/system/bin/su","/system/xbin/su","/system/app/Superuser.apk","/system/app/SuperSU.apk","/system/app/SuperSUPro.apk");
+package_extract_file("system/bin/su", "/system/bin/su");
+package_extract_file("system/app/SuperSU.apk", "/system/app/SuperSU.apk");
+package_extract_file("system/app/SuperSUPro.apk", "/system/app/SuperSUPro.apk");
+set_perm(0,0,6755,"system/bin/su");
+set_perm(0,0,0777,"system/app/SuperSU.apk");
+set_perm(0,0,0777,"system/app/SuperSUPro.apk");
+symlink("/system/bin/su", "/system/xbin/su");
+unmount("/system");
+ui_print("update .......ok.");
