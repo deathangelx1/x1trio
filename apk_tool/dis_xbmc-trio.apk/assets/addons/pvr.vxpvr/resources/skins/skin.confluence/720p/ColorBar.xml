@@ -1,0 +1,15 @@
+<window>
+	<defaultcontrol always="true">100</defaultcontrol>
+	<allowoverlay>no</allowoverlay>
+	<views>2</views>
+	<controls>
+		<control type="image">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>1280</width>
+			<height>720</height>
+			<texture>special://skin/backgrounds/color-bar-1280x720.jpg</texture>
+		</control>		
+	</controls>
+</window>
+

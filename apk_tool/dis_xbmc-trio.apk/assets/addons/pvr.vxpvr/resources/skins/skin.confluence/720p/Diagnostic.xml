@@ -1,0 +1,208 @@
+<window>
+	<defaultcontrol always="true">100</defaultcontrol>
+	<allowoverlay>no</allowoverlay>
+	<views>2</views>
+	<controls>	
+		<control type="group">
+		    <visible>!IsEmpty(Window.Property(MainUI))</visible>
+		    <control type="image">
+                <posx>0</posx>
+                <posy>0</posy>
+                <width>1280</width>
+                <height>720</height>
+                <texture>special://skin/backgrounds/color-bar-1280x720.jpg</texture>
+                <!--colordiffuse>A0FFFFFF</colordiffuse-->
+            </control>
+            <control type="group">
+			<posx>120</posx>
+			<posy>60</posy>
+			<animation type="WindowOpen" reversible="false">
+				<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300" />
+				<effect type="fade" start="0" end="100" time="300" />
+			</animation>
+			<animation type="WindowClose" reversible="false">
+				<effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="300" />
+				<effect type="fade" start="100" end="0" time="300" />
+			</animation>
+			<control type="image">
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>1040</width>
+				<height>580</height>
+				<texture border="20">DialogBack.png</texture>
+			</control>
+			<control type="label">
+				<description>header label</description>
+				<posx>40</posx>
+				<posy>20</posy>
+				<width>530</width>
+				<height>40</height>
+				<font>font16caps</font>
+				<label>$ADDON[pvr.vxpvr 32075]</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<textcolor>gray</textcolor>
+				<shadowcolor>white</shadowcolor>
+			</control>
+		<control type="group">
+			<posx>200</posx>
+			<posy>160</posy>
+			<control type="button" id ="100">
+				<description>Write MAC Address</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>200</width>
+				<height>60</height>
+				<label>$ADDON[pvr.vxpvr 32076]</label>
+				<font>font13_title</font>
+				<textcolor>red</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>center</align>
+				<aligny>center</aligny>
+				<onleft>106</onleft>
+				<onright>103</onright>
+				<onup>102</onup>
+				<ondown>101</ondown>
+			</control>
+			<control type="button" id ="101">
+				<description>USB SATA</description>
+				<posx>0</posx>
+				<posy>80</posy>
+				<width>200</width>
+				<height>60</height>
+				<label>$ADDON[pvr.vxpvr 32077]</label>
+				<font>font13_title</font>
+				<textcolor>green</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>center</align>
+				<aligny>center</aligny>
+				<onleft>107</onleft>
+				<onright>104</onright>
+				<onup>100</onup>
+				<ondown>102</ondown>
+			</control>
+			<control type="button" id ="102">
+				<description>RCA Component</description>
+				<posx>0</posx>
+				<posy>160</posy>
+				<width>200</width>
+				<height>60</height>
+				<label>$ADDON[pvr.vxpvr 32078]</label>
+				<font>font13_title</font>
+				<textcolor>yellow</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>center</align>
+				<aligny>center</aligny>
+				<onleft>108</onleft>
+				<onright>105</onright>
+				<onup>101</onup>
+				<ondown>100</ondown>
+			</control>
+			<control type="button" id ="103">
+				<description>LNB Test</description>
+				<posx>220</posx>
+				<posy>0</posy>
+				<width>200</width>
+				<height>60</height>
+				<label>$ADDON[pvr.vxpvr 32079]</label>
+				<font>font13_title</font>
+				<textcolor>blue</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>center</align>
+				<aligny>center</aligny>
+				<onleft>100</onleft>
+				<onright>106</onright>
+				<onup>105</onup>
+				<ondown>104</ondown>
+			</control>
+			<control type="button" id ="104">
+				<description>SAT Tuning</description>
+				<posx>220</posx>
+				<posy>80</posy>
+				<width>200</width>
+				<height>60</height>
+				<label>$ADDON[pvr.vxpvr 32080]</label>
+				<font>font13_title</font>
+				<textcolor>red</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>center</align>
+				<aligny>center</aligny>
+				<onleft>101</onleft>
+				<onright>107</onright>
+				<onup>103</onup>
+				<ondown>105</ondown>
+			</control>
+			<control type="button" id ="105">
+				<description>Cable Tuning</description>
+				<posx>220</posx>
+				<posy>160</posy>
+				<width>200</width>
+				<height>60</height>
+				<label>$ADDON[pvr.vxpvr 32081]</label>
+				<font>font13_title</font>
+				<textcolor>green</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>center</align>
+				<aligny>center</aligny>
+				<onleft>102</onleft>
+				<onright>108</onright>
+				<onup>104</onup>
+				<ondown>103</ondown>
+			</control>
+			<control type="button" id ="106">
+				<description>System Info</description>
+				<posx>440</posx>
+				<posy>0</posy>
+				<width>200</width>
+				<height>60</height>
+				<label>$ADDON[pvr.vxpvr 32082]</label>
+				<font>font13_title</font>
+				<textcolor>yellow</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>center</align>
+				<aligny>center</aligny>
+				<onleft>103</onleft>
+				<onright>100</onright>
+				<onup>108</onup>
+				<ondown>107</ondown>
+			</control>
+			<control type="button" id ="107">
+				<description>Factory Reset</description>
+				<posx>440</posx>
+				<posy>80</posy>
+				<width>200</width>
+				<height>60</height>
+				<label>$ADDON[pvr.vxpvr 32083]</label>
+				<font>font13_title</font>
+				<textcolor>blue</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>center</align>
+				<aligny>center</aligny>
+				<onleft>104</onleft>
+				<onright>101</onright>
+				<onup>106</onup>
+				<ondown>108</ondown>
+			</control>
+			<control type="button" id ="108">
+				<description>Exit</description>
+				<posx>440</posx>
+				<posy>160</posy>
+				<width>200</width>
+				<height>60</height>
+				<label>$ADDON[pvr.vxpvr 32084]</label>
+				<font>font13_title</font>
+				<textcolor>red</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>center</align>
+				<aligny>center</aligny>
+				<onleft>105</onleft>
+				<onright>102</onright>
+				<onup>107</onup>
+				<ondown>106</ondown>
+			</control>
+		</control>
+	</control>
+	</control>
+  </controls>
+</window>
+

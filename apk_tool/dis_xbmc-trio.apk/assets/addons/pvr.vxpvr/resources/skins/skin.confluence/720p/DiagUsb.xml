@@ -1,0 +1,197 @@
+<window>
+	<defaultcontrol always="true">106</defaultcontrol>
+	<allowoverlay>no</allowoverlay>
+	<views>2</views>
+	<controls>
+	<control type="image">
+        <posx>0</posx>
+        <posy>0</posy>
+        <width>1280</width>
+        <height>720</height>
+        <texture>special://skin/backgrounds/color-bar-1280x720.jpg</texture>
+    </control>
+		<control type="group">
+			<posx>120</posx>
+			<posy>60</posy>
+			<animation type="WindowOpen" reversible="false">
+				<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300" />
+				<effect type="fade" start="0" end="100" time="300" />
+			</animation>
+			<animation type="WindowClose" reversible="false">
+				<effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="300" />
+				<effect type="fade" start="100" end="0" time="300" />
+			</animation>
+			<control type="image">
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>1040</width>
+				<height>580</height>
+				<texture border="20">DialogBack.png</texture>
+			</control>			
+		<control type="group">
+			<posx>200</posx>
+			<posy>50</posy>
+			<control type="button" id ="100">
+				<description>USB 1</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>600</width>
+				<height>50</height>
+				<label>-</label>
+				<font>font13_title</font>
+				<textcolor>yellow</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>left</align>
+				<aligny>center</aligny>
+				<onup>106</onup>
+				<ondown>101</ondown>
+			</control>
+			<control type="image">
+		      <posx>550</posx>
+		      <posy>5</posy>
+		      <width>40</width>
+		      <height>40</height>
+		      <aspectratio>stretch</aspectratio>
+		      <texture>DefaultIconError.png</texture>
+		      <visible>IsEmpty(Window.Property(usb1))</visible>
+		    </control>
+			<control type="button" id ="101">
+				<description>USB 2</description>
+				<posx>0</posx>
+				<posy>70</posy>
+				<width>600</width>
+				<height>50</height>
+				<label>-</label>
+				<font>font13_title</font>
+				<textcolor>yellow</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>left</align>
+				<aligny>center</aligny>
+				<onup>100</onup>
+				<ondown>102</ondown>
+			</control>
+			<control type="image">
+		      <posx>550</posx>
+		      <posy>75</posy>
+		      <width>40</width>
+		      <height>40</height>
+		      <aspectratio>stretch</aspectratio>
+		      <texture>DefaultIconError.png</texture>
+		      <visible>IsEmpty(Window.Property(usb2))</visible>
+		    </control>
+			<control type="button" id ="102">
+				<description>USB 3</description>
+				<posx>0</posx>
+				<posy>140</posy>
+				<width>600</width>
+				<height>50</height>
+				<label>-</label>
+				<font>font13_title</font>
+				<textcolor>yellow</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>left</align>
+				<aligny>center</aligny>
+				<onup>101</onup>
+				<ondown>103</ondown>
+			</control>
+			<control type="image">
+		      <posx>550</posx>
+		      <posy>145</posy>
+		      <width>40</width>
+		      <height>40</height>
+		      <aspectratio>stretch</aspectratio>
+		      <texture>DefaultIconError.png</texture>
+		      <visible>IsEmpty(Window.Property(usb3))</visible>
+		    </control>
+			<control type="button" id ="103">
+				<description>USB 4</description>
+				<posx>0</posx>
+				<posy>210</posy>
+				<width>600</width>
+				<height>50</height>
+				<label>-</label>
+				<font>font13_title</font>
+				<textcolor>yellow</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>left</align>
+				<aligny>center</aligny>
+				<onup>102</onup>
+				<ondown>104</ondown>
+			</control>
+			<control type="image">
+		      <posx>550</posx>
+		      <posy>215</posy>
+		      <width>40</width>
+		      <height>40</height>
+		      <aspectratio>stretch</aspectratio>
+		      <texture>DefaultIconError.png</texture>
+		      <visible>IsEmpty(Window.Property(usb4))</visible>
+		    </control>
+			<control type="button" id ="104">
+				<description>SATA</description>
+				<posx>0</posx>
+				<posy>280</posy>
+				<width>600</width>
+				<height>50</height>
+				<label>-</label>
+				<font>font13_title</font>
+				<textcolor>yellow</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>left</align>
+				<aligny>center</aligny>
+				<onup>103</onup>
+				<ondown>105</ondown>
+			</control>
+			<control type="image">
+		      <posx>550</posx>
+		      <posy>285</posy>
+		      <width>40</width>
+		      <height>40</height>
+		      <aspectratio>stretch</aspectratio>
+		      <texture>DefaultIconError.png</texture>
+		      <visible>IsEmpty(Window.Property(sata))</visible>
+		    </control>
+			<control type="button" id ="105">
+				<description>SDCARD</description>
+				<posx>0</posx>
+				<posy>350</posy>
+				<width>600</width>
+				<height>50</height>
+				<label>-</label>
+				<font>font13_title</font>
+				<textcolor>yellow</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>left</align>
+				<aligny>center</aligny>
+				<onup>104</onup>
+				<ondown>106</ondown>
+			</control>
+			<control type="image">
+		      <posx>550</posx>
+		      <posy>355</posy>
+		      <width>40</width>
+		      <height>40</height>
+		      <aspectratio>stretch</aspectratio>
+		      <texture>DefaultIconError.png</texture>
+		      <visible>IsEmpty(Window.Property(sdcard))</visible>
+		    </control>
+			<control type="button" id ="106">
+				<description>EXIT</description>
+				<posx>0</posx>
+				<posy>420</posy>
+				<width>600</width>
+				<height>50</height>
+				<label>-</label>
+				<font>font13_title</font>
+				<textcolor>yellow</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>left</align>
+				<aligny>center</aligny>
+				<onup>105</onup>
+				<ondown>100</ondown>
+			</control>
+		</control>
+	</control>
+  </controls>
+</window>
+

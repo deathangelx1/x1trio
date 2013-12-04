@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="imageView1">false</item>
+    <item type="id" name="progressBar1">false</item>
+    <item type="id" name="textView1">false</item>
+</resources>

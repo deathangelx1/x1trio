@@ -1,0 +1,12 @@
+version: 1.5.2
+apkFileName: xbmc-trio.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '14'
+packageInfo:
+  cur_package: org.xbmc.xbmc
+  orig_package: org.xbmc.xbmc
+compressionType: false

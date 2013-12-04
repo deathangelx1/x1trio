@@ -1,0 +1,2 @@
+set solib-search-path ./obj/local/armeabi-v7a
+directory /home/imjyj/android-toolchain-xbmc/android-9/sysroot/usr/include /home/imjyj/android-ndk-r7-crystax-5.beta2/sources/android/native_app_glue /home/imjyj/android-ndk-r7-crystax-5.beta2/sources/cxx-stl/gnu-libstdc++/include/4.6.3 /setroid-hdd/home/imjyj/workspace/xbmc-hisili/xbmc-trio  /home/imjyj/android-toolchain-xbmc/android-9/staging/armeabi-v7a/include jni

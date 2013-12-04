@@ -1,0 +1,264 @@
+# XBMC Media Center language file
+# Addon Name: NextPVR PVR Client
+# Addon id: pvr.nextpvr
+# Addon version: 1.6.3
+# Addon Provider: Graeme Blackley
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC Main Translation Project (Frodo)\n"
+"Report-Msgid-Bugs-To: http://trac.xbmc.org/\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: XBMC Translation Team\n"
+"Language-Team: English (http://www.transifex.com/projects/p/XBMC-Main-Frodo/language/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#Settings labels
+
+msgctxt "#30000"
+msgid "NextPVR Hostname"
+msgstr ""
+
+msgctxt "#30001"
+msgid "NextPVR Port (usually 8866 or 7799)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "NextPVR PinCode"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Enable TimeShift with Live TV"
+msgstr ""
+
+#empty strings from id 30004 to 30039
+#Category labels
+
+msgctxt "#30040"
+msgid "Connection"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Advanced"
+msgstr ""
+
+#empty strings from id 30042 to 30049
+#On-screen error messages
+
+msgctxt "#30050"
+msgid "NextPVR server is too old."
+msgstr ""
+
+msgctxt "#30051"
+msgid "Upgrade to '%s' or higher!"
+msgstr ""
+
+msgctxt "#30052"
+msgid "Connection failed. Incorrect PIN?"
+msgstr ""
+
+msgctxt "#30053"
+msgid "Tuner no longer available"
+msgstr ""
+
+###################################################################
+
+msgctxt "#31000"
+msgid "VDR Hostname or IP"
+msgstr ""
+
+msgctxt "#31001"
+msgid "VNSI Port"
+msgstr ""
+
+msgctxt "#31002"
+msgid "Priority"
+msgstr ""
+
+msgctxt "#31003"
+msgid "Character Set Conversion"
+msgstr ""
+
+msgctxt "#31004"
+msgid "Connect timeout (s)"
+msgstr ""
+
+msgctxt "#31005"
+msgid "Allow VDR Messages"
+msgstr ""
+
+msgctxt "#31006"
+msgid "Read recordings from directory"
+msgstr ""
+
+msgctxt "#31007"
+msgid "VDR recordings directory"
+msgstr ""
+
+msgctxt "#31008"
+msgid "Channel search"
+msgstr ""
+
+msgctxt "#31009"
+msgid "Channel search - Settings"
+msgstr ""
+
+msgctxt "#31010"
+msgid "Start Channel search"
+msgstr ""
+
+msgctxt "#31011"
+msgid "Source Type"
+msgstr ""
+
+msgctxt "#31012"
+msgid "TV channels"
+msgstr ""
+
+msgctxt "#31013"
+msgid "Radio channels"
+msgstr ""
+
+msgctxt "#31014"
+msgid "FTA channels"
+msgstr ""
+
+msgctxt "#31015"
+msgid "Scrambled channels"
+msgstr ""
+
+msgctxt "#31016"
+msgid "HD channels"
+msgstr ""
+
+msgctxt "#31017"
+msgid "Country"
+msgstr ""
+
+msgctxt "#31018"
+msgid "Cable Inversion"
+msgstr ""
+
+msgctxt "#31019"
+msgid "Cable Symbolrate"
+msgstr ""
+
+msgctxt "#31020"
+msgid "Cable modulation"
+msgstr ""
+
+msgctxt "#31021"
+msgid "Terr Inversion"
+msgstr ""
+
+msgctxt "#31022"
+msgid "Satellite"
+msgstr ""
+
+msgctxt "#31023"
+msgid "ATSC Type"
+msgstr ""
+
+msgctxt "#31024"
+msgid "Back"
+msgstr ""
+
+msgctxt "#31025"
+msgid "Channel search - running... %i %%"
+msgstr ""
+
+msgctxt "#31026"
+msgid "Type:"
+msgstr ""
+
+msgctxt "#31027"
+msgid "Device:"
+msgstr ""
+
+msgctxt "#31028"
+msgid "Scan: %i"
+msgstr ""
+
+msgctxt "#31029"
+msgid "Signal: %i %%"
+msgstr ""
+
+msgctxt "#31030"
+msgid "New channels: %i"
+msgstr ""
+
+msgctxt "#31031"
+msgid "All channels: %i"
+msgstr ""
+
+msgctxt "#31032"
+msgid "Analog TV"
+msgstr ""
+
+msgctxt "#31033"
+msgid "Analog Radio"
+msgstr ""
+
+msgctxt "#31034"
+msgid "Transponder:"
+msgstr ""
+
+msgctxt "#31035"
+msgid "New channels"
+msgstr ""
+
+msgctxt "#31036"
+msgid "Channel search - Finished"
+msgstr ""
+
+msgctxt "#31037"
+msgid "No device available - exiting"
+msgstr ""
+
+msgctxt "#31038"
+msgid "No DVB-S2 device available - trying fallback to DVB-S"
+msgstr ""
+
+msgctxt "#31039"
+msgid "Running"
+msgstr ""
+
+msgctxt "#31040"
+msgid "Stopped"
+msgstr ""
+
+msgctxt "#31041"
+msgid "Finished"
+msgstr ""
+
+msgctxt "#31042"
+msgid "Channel search - Canceled"
+msgstr ""
+
+msgctxt "#31043"
+msgid "Channel search - Error"
+msgstr ""
+
+msgctxt "#31044"
+msgid "Lost connection to VDR Server"
+msgstr ""
+
+msgctxt "#31045"
+msgid "Connection to VDR Server restored"
+msgstr ""
+
+msgctxt "#31046"
+msgid "Create channel groups automatically on the server"
+msgstr ""
+
+msgctxt "#31047"
+msgid "Signal"
+msgstr ""
+
+msgctxt "#31048"
+msgid "Quality"
+msgstr ""
