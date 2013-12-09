@@ -1,6 +1,9 @@
 x1trio
 ======
 
+v 0.03 
+add icons update
+
 v 0.02
 Change structure, clean and reorganize.
 

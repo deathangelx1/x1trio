@@ -1,2 +1,0 @@
-2fb86f834d353b119c9218ac2b91a87e *root-signed.zip
-863f8fb2c1e6f58b604142af979914b0 *root-light-signed.zip
