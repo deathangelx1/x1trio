@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cables>
-  <cab name="CABLE">
-    <transponder frequency="435000" symbol_rate="5218000" fec_inner="256"/>
-  </cab>
- </cables>
- 

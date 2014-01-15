@@ -104,5 +104,7 @@
         <Replace name="baksmali-1.4.2.jar" />
         <Replace name="apktool.1.5.2.jar" />
     </FindHistory>
-    <History nbMaxFile="15" />
+    <History nbMaxFile="15">
+        <File filename="T:\android_root\root\light\META-INF\com\google\android\updater-script" />
+    </History>
 </NotepadPlus>
