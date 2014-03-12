@@ -13,7 +13,7 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="209" y="146" width="955" height="659" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="562" y="224" width="1531" height="966" isMaximized="no" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
@@ -83,18 +83,22 @@
         <GUIConfig name="ScintillaGlobalSettings" enableMultiSelection="no" />
         <GUIConfig name="openSaveDir" value="0" defaultDirPath="" />
         <GUIConfig name="titleBar" short="no" />
-        <GUIConfig name="stylerTheme" path="T:\apk_tool\SYSTEM.EAD\unicode\stylers.xml" />
+        <GUIConfig name="stylerTheme" path="C:\Users\marcelo\Documents\GitHub\x1trio\apk_tool\SYSTEM.EAD\unicode\stylers.xml" />
         <GUIConfig name="DockingManager" leftWidth="200" rightWidth="200" topHeight="200" bottomHeight="200">
             <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
-            <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="yes" />
             <ActiveTabs cont="0" activeTab="-1" />
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
-            <ActiveTabs cont="3" activeTab="-1" />
+            <ActiveTabs cont="3" activeTab="0" />
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150">
+        <Path name="C:\Users\marcelo\Desktop\osTicket-1.8-1.8.1-rc1" />
+        <Filter name="*.*" />
+        <Find name="Closed By:" />
+        <Find name="Subject" />
         <Find name="smali-1.2.2.jar" />
         <Find name="baksmali-1.2.2.jar" />
         <Find name="baksmali" />
@@ -106,5 +110,7 @@
     </FindHistory>
     <History nbMaxFile="15">
         <File filename="T:\android_root\root\light\META-INF\com\google\android\updater-script" />
+        <File filename="C:\Users\marcelo\Desktop\osTicket-1.8-1.8.1-rc1\include\upgrader\streams\core\852ca89e-740428f9.patch.sql" />
+        <File filename="C:\Users\marcelo\Desktop\osTicket-1.8-1.8.1-rc1\index.php" />
     </History>
 </NotepadPlus>
