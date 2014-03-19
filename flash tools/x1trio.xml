@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Partition_Info>
+    <Part Sel="1" PartitionName="Fastboot" FlashType="Spi" FileSystem="None" Start="0" Length="" SelectFile="Y:\Aplica珲es e Drivers - Android\X1 trio\Hisilicon 3716C V200 - Tools\fastboot-burn.bin" />
+</Partition_Info>
